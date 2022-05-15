@@ -1,3 +1,3 @@
-from python_template import hello_world
+from audio2dataset import hello_world
 
 hello_world("hi")
