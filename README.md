@@ -5,6 +5,8 @@
 
 Easily turn large sets of audio urls to an audio dataset.
 
+Not ready for show time yet, see #1 and #2
+
 
 ## Install
 
