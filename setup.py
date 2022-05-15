@@ -22,6 +22,7 @@ if __name__ == "__main__":
         description="A python template",
         long_description=long_description,
         long_description_content_type="text/markdown",
+        entry_points={"console_scripts": ["audio2dataset = audio2dataset:main"]},
         author="Romain Beaumont",
         author_email="romain.rom1@gmail.com",
         url="https://github.com/rom1504/audio2dataset",
