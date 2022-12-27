@@ -23,9 +23,9 @@ class Subsampler:
         """
         try:
             if self.disable_all_reencoding:
-                return audio_stream.read(), None, None, None, None, None
+                return audio_stream.read(), None
 
-            return audio_stream.read(), None, None, None, None, None
+            return audio_stream.read(), None
 
         except Exception as err:  # pylint: disable=broad-except
-            return None, None, None, None, None, str(err)
+            return None, str(err)
